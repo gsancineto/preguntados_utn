@@ -48,4 +48,4 @@ CLICKABLE_COORDS = [
     {"ANSWER_C": ANSWER_C_COORD}
     ]
 
-LOGO_URI = "./preguntados/multimedia/logo_preguntados.png"
+LOGO_URI = "./multimedia/logo_preguntados.png"

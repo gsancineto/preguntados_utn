@@ -65,13 +65,13 @@ def normalize_list(lista):
     # score: El puntaje resultante
 def handle_answer(item_clicked,right_answer,attempts,index,score):
     answer = ""
-    match item_clicked:
-        case "ANSWER_A":
-            answer = "a"
-        case "ANSWER_B":
-            answer = "b"
-        case "ANSWER_C":
-            answer = "c"
+    if item_clicked == "ANSWER_A":
+        answer = "a"
+    elif item_clicked == "ANSWER_B":
+        answer = "b"
+    elif item_clicked == "ANSWER_C":
+        answer = "c"
+
 
     if answer == right_answer:
         score = score + 10
